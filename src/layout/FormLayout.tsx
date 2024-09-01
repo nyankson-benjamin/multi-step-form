@@ -12,7 +12,7 @@ export default function FormLayout({
     <div
       className={[
         windowWidth >= 900 ? "flex-row" : "flex-col",
-        "flex gap-5 border bg-white min-h-[350px] min-w-[300px] rounded-lg p-5 justify-center",
+        "flex gap-5 border bg-white min-h-[300px] min-w-[300px] rounded-lg p-5 justify-center",
       ].join(" ")}
     >
       {windowWidth >= 900 && <SideBar />}
