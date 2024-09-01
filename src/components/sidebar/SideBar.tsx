@@ -2,11 +2,9 @@ import StepperButon from "../Buttons/StepperButton";
 import { stepperItems } from "../../constants/stepperItem";
 import { useStore } from "../../store/stepper";
 import sidebarImg from "../../assets/images/sidebarImg.svg"
-import { useForm } from "../../store/form";
 
 export default function SideBar() {
     const {currentStep, setStep} = useStore();
-    const { disabledButton } = useForm();
 
 
   return (
