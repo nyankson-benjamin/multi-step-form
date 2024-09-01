@@ -21,7 +21,7 @@ export default function RegistrationForm() {
         {currentStep === 2 && <AddOns />}
         {currentStep === 3 && <Preview />}
         {currentStep > 3 && <Thank />}
-        <div className="flex justify-between items-center mt-28">
+        <div className="flex justify-between items-center mt-28 ">
          
            { currentStep < 4 && <p
               className="cursor-pointer"
