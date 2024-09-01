@@ -1,0 +1,1 @@
+export const stepperItems = ["Your info", "select plan", "add-ons", "summary"]
