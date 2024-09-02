@@ -1,4 +1,4 @@
-import thank from "../../../assets/images/thankyou.svg";
+import thank from "../../../../public/thankyou.svg";
 import HeaderComponent from "../../HeaderComponent";
 export default function Thank() {
   return (

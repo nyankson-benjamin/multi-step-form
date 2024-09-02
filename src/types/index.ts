@@ -12,5 +12,6 @@ export type inputProps = {
     label:string,
     placeholder:string,
     value:string,
-    onChange:(val:string)=>void
+    onChange:(val:string)=>void,
+    id:string
 }

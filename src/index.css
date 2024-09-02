@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("/src/assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url("/src/assets/fonts/Ubuntu-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url("/src/assets/fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+
+
 .primaryBg{
   background-color:hsl(213, 96%, 18%) ;
 }
@@ -18,4 +34,18 @@
 body{
   background-color: #c4cdda;
   margin: 100px auto;
+}
+
+
+:root {
+  --denim: hsl(213, 96%, 18%);
+  --purple: hsl(243, 100%, 62%);
+  --light-blue: hsl(228, 100%, 84%);
+  --sky-blue: hsl(206, 94%, 87%);
+  --red-errors: hsl(354, 84%, 57%);
+  --grey: hsl(231, 11%, 63%);
+  --light-grey: hsl(229, 24%, 87%);     /* border color */
+  --BG: hsl(217, 100%, 97%);
+  --very-light-grey: hsl(231, 100%, 99%);
+  --White: hsl(0, 0%, 100%);
 }

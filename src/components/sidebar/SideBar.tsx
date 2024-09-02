@@ -1,7 +1,7 @@
 import StepperButon from "../Buttons/StepperButton";
 import { stepperItems } from "../../constants/stepperItem";
 import { useStore } from "../../store/stepper";
-import sidebarImg from "../../assets/images/sidebarImg.svg"
+import sidebarImg from "../../../public/sidebarImg.svg"
 
 export default function SideBar() {
     const {currentStep, setStep} = useStore();

@@ -12,7 +12,7 @@ import Preview from "./formItems/Preview";
 export default function RegistrationForm() {
   const { currentStep, setStep } = useStore();
   const { disabledButton } = useForm();
-  const {} = useFormValidation();
+  const val = useFormValidation();
   return (
     <div className="">
       <FormLayout>
@@ -21,16 +21,17 @@ export default function RegistrationForm() {
         {currentStep === 2 && <AddOns />}
         {currentStep === 3 && <Preview />}
         {currentStep > 3 && <Thank />}
-        <div className="flex justify-between items-center mt-28 ">
-         
-           { currentStep < 4 && <p
+        <div className="flex justify-between items-center mt-20 ">
+          {currentStep > 0 && currentStep <= 3 && (
+            <p
               className="cursor-pointer"
               onClick={() => setStep(currentStep - 1)}
             >
               Go Back
-            </p>}
+            </p>
+          )}
 
-          <span></span>
+          <span>{val}</span>
           {currentStep < 4 && (
             <ButtonComponent
               text={currentStep === 3 ? "Confirm" : "Next Step"}

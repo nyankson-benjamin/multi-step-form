@@ -33,5 +33,5 @@ export default function useFormValidation() {
   useEffect(() => {
     setDisabledButton(validateCurrentStep());
   }, [currentStep, name, email, contact, setDisabledButton,plan, addOns]);
-  return {};
+  return null;
 }

@@ -5,7 +5,7 @@ import RegistrationForm from './components/form/RegistrationForm'
 function App() {
 
   return (
-    <div className='w-full flex items-center justify-center'>
+    <div className='w-full flex items-center justify-center font-ubuntu'>
 <RegistrationForm/>
     </div>
   )

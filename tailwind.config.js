@@ -37,6 +37,11 @@ export default {
         purplishBlue:"hsl(243, 100%, 62%)"
 
       },
+      fontFamily: {
+        ubuntu: ['Ubuntu-Regular', 'sans-serif'],
+        ubuntuMedium: ['Ubuntu-Medium', 'sans-serif'],
+        ubuntuBold: ['Ubuntu-Bold', 'sans-serif'],
+      }
     },
   },
   plugins: [],
