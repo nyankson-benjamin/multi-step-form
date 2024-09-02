@@ -8,10 +8,10 @@ const sidebarImg = "/sidebarImg.svg"
 
   return (
     <div 
-      className="border rounded-lg sideBarBg p-5 text-[white] bg-cover bg-no-repeat" 
+      className="border rounded-lg sideBarBg p-5 text-[white] bg-cover bg-no-repeat w-[300px]" 
       style={{backgroundImage: `url(${sidebarImg})`}} // Use `backgroundImage` instead of `background`
     >
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-8">
             {stepperItems.map((item, idx) => (
                 <div key={idx} className="flex gap-2 items-center">
                     <StepperButon 

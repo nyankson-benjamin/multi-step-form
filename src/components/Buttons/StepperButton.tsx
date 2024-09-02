@@ -5,7 +5,7 @@ export default function StepperButton({ text, onSubmit, isActive, disabled }: st
     <button 
       className={[
         "border px-3 py-1 rounded-full",
-        isActive ? "bg-[lightBlue]" : "",
+        isActive ? "bg-[lightBlue] text-black" : "",
         disabled ? "cursor-pointer opacity-50" : "hover:bg-[lightBlue]"
       ].join(' ')}
       onClick={() => onSubmit()}
